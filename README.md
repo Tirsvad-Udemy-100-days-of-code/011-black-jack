@@ -45,7 +45,7 @@ Leave the environment with `deactivate`.
 
 ## Run
 
-The game entry point is added in the *Game Implementation* milestone:
+Start the game from the activated virtual environment:
 
 ```bash
 python -m blackjack

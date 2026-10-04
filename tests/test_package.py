@@ -28,10 +28,10 @@ class TestPackage(unittest.TestCase):
 
     def test_every_card_has_an_emoji_face(self) -> None:
         """!
-        @brief Every card in the deck can be rendered.
+        @brief Every card in the deck has a rank to render.
         """
         for card in constants.CARDS:
-            self.assertIn(card, constants.CARD_FACES)
+            self.assertIn(card, constants.CARD_RANKS)
 
 
 if __name__ == "__main__":
