@@ -24,17 +24,50 @@ BLACKJACK_MARKER: int = 0
 ## Unlimited deck: cards are never removed. 11 is the ace, 10 covers 10/J/Q/K.
 CARDS: list[int] = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
 
-## Emoji face for each card value.
-CARD_FACES: dict[int, str] = {
-    ACE_HIGH: "\U0001f170️",
-    ACE_LOW: "\U0001f170️",
-    2: "2️⃣",
-    3: "3️⃣",
-    4: "4️⃣",
-    5: "5️⃣",
-    6: "6️⃣",
-    7: "7️⃣",
-    8: "8️⃣",
-    9: "9️⃣",
-    10: "\U0001f51f",
+## Rank text for each card value; plain text renders in every terminal.
+CARD_RANKS: dict[int, str] = {
+    ACE_HIGH: "A",
+    ACE_LOW: "A",
+    2: "2",
+    3: "3",
+    4: "4",
+    5: "5",
+    6: "6",
+    7: "7",
+    8: "8",
+    9: "9",
+    10: "10",
 }
+
+## Suit emoji shown after the rank; cards in a hand cycle through them.
+CARD_SUITS: tuple[str, ...] = ("♠️", "♥️", "♦️", "♣️")
+
+## Answer that means yes at a yes/no prompt.
+ANSWER_YES: str = "y"
+
+## Answer that means no at a yes/no prompt.
+ANSWER_NO: str = "n"
+
+## Prompt asking the player whether to draw another card.
+PROMPT_HIT: str = "Type 'y' to get another card, type 'n' to pass: "
+
+## Prompt asking the player whether to play a game.
+PROMPT_RESTART: str = "Do you want to play a game of Blackjack? Type 'y' or 'n': "
+
+## Message shown after an answer that is neither yes nor no.
+MESSAGE_INVALID_ANSWER: str = "Please answer 'y' or 'n'."
+
+## Message shown when the player leaves the game.
+MESSAGE_GOODBYE: str = "Goodbye!"
+
+## Label shown instead of a score when a hand is a blackjack.
+LABEL_BLACKJACK: str = "Blackjack"
+
+## Outcome messages.
+MESSAGE_DRAW: str = "Draw \U0001f643"
+MESSAGE_WIN: str = "You win \U0001f603"
+MESSAGE_WIN_BLACKJACK: str = "Win with a Blackjack \U0001f60e"
+MESSAGE_WIN_DEALER_BUST: str = "Opponent went over. You win \U0001f601"
+MESSAGE_LOSE: str = "You lose \U0001f624"
+MESSAGE_LOSE_DEALER_BLACKJACK: str = "Lose, opponent has Blackjack \U0001f631"
+MESSAGE_LOSE_BUST: str = "You went over. You lose \U0001f62d"
