@@ -9,7 +9,7 @@
 ## Version History
 | Date | Status | Author | Reviewer | Change | Commit |
 | --- | --- | --- | --- | --- | --- |
-| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | pending |
+| 2026-10-04 | Accepted | Jens Tirsvad Nielsen | S01 | Initial version | [1d35410] |
 
 ---
 
@@ -81,3 +81,4 @@ A No-Go on Gateway 1 moves every Gateway 2 date by the same number of days.
 [MIL-002]: ./milestones/mil-002-game-implementation.md
 [Milestone-34]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/011-black-jack/milestone/34
 [Milestone-35]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/011-black-jack/milestone/35
+[1d35410]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/011-black-jack/commit/1d35410b8d29df6c4991a0b9aff24f8509d58a86
