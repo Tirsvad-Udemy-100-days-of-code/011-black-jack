@@ -79,6 +79,6 @@ A No-Go on Gateway 1 moves every Gateway 2 date by the same number of days.
 [SA-001]: ./stakeholder-analysis.md
 [MIL-001]: ./milestones/mil-001-project-setup.md
 [MIL-002]: ./milestones/mil-002-game-implementation.md
-[Milestone-34]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/011-black-jack/milestone/34
-[Milestone-35]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/011-black-jack/milestone/35
-[1d35410]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/011-black-jack/commit/1d35410b8d29df6c4991a0b9aff24f8509d58a86
+[Milestone-34]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/011-blackjack/milestone/34
+[Milestone-35]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/011-blackjack/milestone/35
+[1d35410]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/011-blackjack/commit/1d35410b8d29df6c4991a0b9aff24f8509d58a86

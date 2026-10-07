@@ -96,7 +96,7 @@ The project supports the owner's goal of completing the 100 Days of Code course 
 
 - The Product Owner and sole developer is stakeholder `S01`.
 - The repository is public, so coursists (`S02`) and viewers (`S03`) can read it.
-- The git host is `git.tirsystem.com`, organisation `Tirsvad-Udemy-100_days_of_code`.
+- The git host is `git.tirsystem.com`, organisation `Tirsvad-Udemy-100-days-of-code`.
 - Python 3.13 or newer is installed locally.
 
 ## Constraints
@@ -127,4 +127,4 @@ Proceed - the scope is small, the rules are fully specified by the assignment an
 ---
 
 [SA-001]: ./stakeholder-analysis.md
-[1d35410]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/011-black-jack/commit/1d35410b8d29df6c4991a0b9aff24f8509d58a86
+[1d35410]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/011-blackjack/commit/1d35410b8d29df6c4991a0b9aff24f8509d58a86

@@ -77,4 +77,4 @@ Pending review by S01.
 ---
 
 [BC-001]: ./business-case.md
-[1d35410]: https://git.tirsystem.com/Tirsvad-Udemy-100_days_of_code/011-black-jack/commit/1d35410b8d29df6c4991a0b9aff24f8509d58a86
+[1d35410]: https://git.tirsystem.com/Tirsvad-Udemy-100-days-of-code/011-blackjack/commit/1d35410b8d29df6c4991a0b9aff24f8509d58a86
